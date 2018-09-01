@@ -11,7 +11,7 @@
 //  else 
 //     console.log('Buenas noches');
 
-let role = 'moderator';
+// let role = 'moderator';
 
 // switch (role) {
 //     case 'guest':
@@ -27,6 +27,14 @@ let role = 'moderator';
 //         break;
 // }
 
-if(role === 'guest') console.log('Guest User');
-else if(role === 'moderator') console.log('Moderator User');
-else console.log('Unknow User');
+/**Logica anterior con IF ELSE */
+// if(role === 'guest') console.log('Guest User');
+// else if(role === 'moderator') console.log('Moderator User');
+// else console.log('Unknow User');
+
+//For Loops
+let value = 25;
+
+for(let i = 0; i < value; i++){
+   if(i % 2 !==0) console.log(i); 
+}
