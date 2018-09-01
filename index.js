@@ -33,8 +33,16 @@
 // else console.log('Unknow User');
 
 //For Loops
-let value = 25;
+// let value = 25;
 
-for(let i = 0; i < value; i++){
-   if(i % 2 !==0) console.log(i); 
+// for (let i = 0; i < value; i++){
+//    if (i % 2 !==0) console.log(i); 
+// }
+
+//while loop
+let i = 0;
+
+while (i <= 5) {
+    if (i % 2 !== 0) console.log(i);
+    i++;
 }
