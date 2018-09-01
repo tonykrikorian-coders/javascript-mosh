@@ -3,11 +3,10 @@
 //DEspues de las 6:00pm decimos :"Buenas noches"
 
 let hour = 20;
-if (hour >= 6 && hour < 12) {
+
+if (hour >= 6 && hour < 12) 
     console.log('Buenos dias');
-}
-else if (hour >= 12 && hour < 18) {
+else if (hour >= 12 && hour < 18) 
     console.log('Buenas tardes');
-} else {
+ else 
     console.log('Buenas noches');
-}
