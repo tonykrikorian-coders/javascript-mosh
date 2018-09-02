@@ -55,8 +55,18 @@
 // }while (i <= 5);
 
 //infinite loops
-let i = 0;
+// let i = 0;
 // while (i < 5){
 //     console.log(i);
 //     // i++;
 // }
+
+//for-in loop (Se usa cuando queremos iterar sobre las propiedades de un objeto)
+let person = {
+    name: 'Tony',
+    age: 30
+};
+
+for (let key in person) {
+    console.log(key,person[key])
+}
