@@ -72,6 +72,18 @@
 // }
 
 //for-of loop (Ideal para iterar sobre arrays)
-const colors = ['red','green','blue'];
-for (let color of colors)
-    console.log(color);
+// const colors = ['red','green','blue'];
+// for (let color of colors)
+//     console.log(color);
+
+//break and continue
+let i = 0;
+while (i <=10){
+   
+    if (i % 2 === 0 ){
+        i++;
+        continue;
+    }
+    console.log(i);
+    i++;
+}
