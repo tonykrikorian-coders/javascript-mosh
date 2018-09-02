@@ -61,12 +61,17 @@
 //     // i++;
 // }
 
-//for-in loop (Se usa cuando queremos iterar sobre las propiedades de un objeto)
-let person = {
-    name: 'Tony',
-    age: 30
-};
+//for-in loop (Se usa cuando queremos iterar sobre las propiedades de un objeto, no en arrays)
+// let person = {
+//     name: 'Tony',
+//     age: 30
+// };
 
-for (let key in person) {
-    console.log(key,person[key])
-}
+// for (let key in person) {
+//     console.log(key,person[key])
+// }
+
+//for-of loop (Ideal para iterar sobre arrays)
+const colors = ['red','green','blue'];
+for (let color of colors)
+    console.log(color);
